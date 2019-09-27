@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build -t uwjx/nginx:v1.0.0 .
+docker build -t uwjx/nginx:v1.0.1 .

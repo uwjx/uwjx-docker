@@ -1,0 +1,2 @@
+FROM centos:7.6.1810
+MAINTAINER Hugh Wang "18501667737@1633.com"

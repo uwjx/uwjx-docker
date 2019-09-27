@@ -9,5 +9,5 @@ RUN ./configure && make && make install
 WORKDIR /root/zlib-1.2.11
 RUN ./configure && make && make install
 WORKDIR /root/nginx-1.14.2
-RUN ./configure && make && make install
+RUN ./configure --with-stream && make && make install
 WORKDIR /root
